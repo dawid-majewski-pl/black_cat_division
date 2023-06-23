@@ -1,0 +1,33 @@
+{
+  "name": "black_cat_division",
+  "version": "1.0.0",
+  "description": "Black Cat Division - Private Music School website.",
+  "main": "index.js",
+  "scripts": {
+    "watch-css": "tailwindcss -i src/styles.css -o public/styles/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dawid-majewski-pl/black_cat_division.git"
+  },
+  "keywords": [
+    "music",
+    "school",
+    "vocal",
+    "guitar",
+    "bass",
+    "piano",
+    "keyboard",
+    "lessons",
+    "covers"
+  ],
+  "author": "Dawid Majewski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dawid-majewski-pl/black_cat_division/issues"
+  },
+  "homepage": "https://github.com/dawid-majewski-pl/black_cat_division#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
