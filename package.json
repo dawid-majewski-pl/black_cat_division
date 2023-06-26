@@ -4,7 +4,8 @@
   "description": "Black Cat Division - Private Music School website.",
   "main": "index.js",
   "scripts": {
-    "watch-css": "tailwindcss -i src/styles.css -o public/styles/styles.css --watch"
+    "build-css": "tailwindcss -i src/input.css -o public/styles/styles.css",
+    "watch-css": "tailwindcss -i src/input.css -o public/styles/styles.css --watch"
   },
   "repository": {
     "type": "git",
