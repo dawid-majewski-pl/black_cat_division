@@ -611,6 +611,10 @@ video {
   --tw-bg-opacity: 0.75;
 }
 
+.bg-\[url\(\'\.\.\/img\/guitar\.webp\'\)\]{
+  background-image: url('../img/guitar.webp');
+}
+
 .bg-\[url\(\'\.\.\/img\/kalandyk\.webp\'\)\]{
   background-image: url('../img/kalandyk.webp');
 }
@@ -746,4 +750,15 @@ video {
   text-align: center;
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.header{
+  margin: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
