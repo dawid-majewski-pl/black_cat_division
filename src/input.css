@@ -14,3 +14,7 @@
 .header {
     @apply text-3xl uppercase font-bold py-12 m-auto text-center;
 }
+
+.question-list {
+    @apply bg-black bg-opacity-75 m-2 p-2;
+}
