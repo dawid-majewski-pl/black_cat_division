@@ -532,6 +532,11 @@ video {
   margin: auto;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-4{
   margin-bottom: 1rem;
 }
@@ -544,12 +549,28 @@ video {
   display: none;
 }
 
+.w-\[64px\]{
+  width: 64px;
+}
+
+.w-\[128px\]{
+  width: 128px;
+}
+
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .gap-7{
   gap: 1.75rem;
+}
+
+.rounded{
+  border-radius: 0.25rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .bg-black{
@@ -565,23 +586,16 @@ video {
   background-image: url('../img/school.webp');
 }
 
+.bg-\[url\(\'\.\.\/img\/kalandyk\.webp\'\)\]{
+  background-image: url('../img/kalandyk.webp');
+}
+
+.bg-\[url\(\'\.\.\/img\/majewski\.webp\'\)\]{
+  background-image: url('../img/majewski.webp');
+}
+
 .p-2{
   padding: 0.5rem;
-}
-
-.py-12{
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.py-32{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.px-8{
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .px-16{
@@ -589,37 +603,27 @@ video {
   padding-right: 4rem;
 }
 
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.py-32{
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .pb-4{
   padding-bottom: 1rem;
 }
 
-.pb-16{
-  padding-bottom: 4rem;
-}
-
-.pb-32{
-  padding-bottom: 8rem;
-}
-
-.pt-32{
-  padding-top: 8rem;
-}
-
 .pt-16{
   padding-top: 4rem;
-}
-
-.pb-40{
-  padding-bottom: 10rem;
-}
-
-.pb-20{
-  padding-bottom: 5rem;
 }
 
 .text-center{
@@ -637,11 +641,6 @@ video {
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .text-lg{
