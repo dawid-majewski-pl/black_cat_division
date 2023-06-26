@@ -780,4 +780,13 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.75;
   padding: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 35 35 / var(--tw-text-opacity));
+}
+
+.text-card{
+  margin: 0.5rem;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.75;
+  padding: 0.5rem;
 }
