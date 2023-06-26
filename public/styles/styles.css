@@ -627,8 +627,16 @@ video {
   background-image: url('../img/piano.webp');
 }
 
+.bg-\[url\(\'\.\.\/img\/publishing\.webp\'\)\]{
+  background-image: url('../img/publishing.webp');
+}
+
 .bg-\[url\(\'\.\.\/img\/school\.webp\'\)\]{
   background-image: url('../img/school.webp');
+}
+
+.bg-\[url\(\'\.\.\/img\/studio\.webp\'\)\]{
+  background-image: url('../img/studio.webp');
 }
 
 .bg-\[url\(\'\.\.\/img\/ukulele\.webp\'\)\]{
@@ -789,4 +797,5 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.75;
   padding: 0.5rem;
+  text-align: justify;
 }
