@@ -22,3 +22,7 @@
 .text-card {
     @apply bg-black bg-opacity-75 m-2 p-2 text-justify;
 }
+
+.media-card {
+    @apply w-[240px] m-auto;
+}
