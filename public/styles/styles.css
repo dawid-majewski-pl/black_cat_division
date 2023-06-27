@@ -577,6 +577,10 @@ video {
   display: grid;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .w-4{
   width: 1rem;
 }
@@ -895,6 +899,7 @@ video {
   .menu{
     height: 44px;
     flex-direction: row;
+    padding-right: 7rem;
   }
 }
 
@@ -971,6 +976,32 @@ video {
     opacity: 1;
     transform: translateY(0);
     pointer-events: all;
+  }
+}
+
+@media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:h-screen{
+    height: 100vh;
+  }
+
+  .md\:items-center{
+    align-items: center;
+  }
+
+  .md\:justify-center{
+    justify-content: center;
+  }
+
+  .md\:p-0{
+    padding: 0px;
   }
 }
 
