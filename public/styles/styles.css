@@ -545,6 +545,10 @@ video {
   margin-right: 0.5rem;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .inline{
   display: inline;
 }
@@ -579,6 +583,22 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-48{
+  width: 12rem;
+}
+
+.w-\[90\%\]{
+  width: 90%;
+}
+
+.w-24{
+  width: 6rem;
+}
+
+.w-60{
+  width: 15rem;
 }
 
 .grid-cols-1{
