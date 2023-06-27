@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .card {
-    @apply w-[50%] relative font-bold;
+    @apply w-[50%] relative font-bold z-[-1];
 }
 
 .badge {
@@ -25,4 +25,56 @@
 
 .media-card {
     @apply w-[240px] m-auto;
+}
+
+.mobile-nav {
+    @apply block xl:hidden;
+}
+
+.navbar {
+    @apply hidden /*block*/ absolute top-0 duration-500 left-0 z-[999] w-screen min-h-screen bg-black text-sm xl:flex xl:justify-end xl:min-h-min;
+}
+
+.menu {
+    @apply list-none flex flex-col xl:flex-row;
+}
+
+.menu-item {
+    @apply relative xl:w-[140px] xl:z-30;
+}
+
+.submenu {
+    @apply relative w-max list-none min-w-full opacity-0 z-[-10] duration-500 translate-y-[-200px] pointer-events-none xl:bg-gray-950;
+}
+
+.menu-link {
+    @apply block text-white-main no-underline py-3 duration-500 hover:text-red-main hover:bg-gray-950;
+}
+
+@media (max-width:1280px) {
+    .menu-item:hover > .submenu {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: all;
+        background-color: rgb(3,7,18);
+        z-index: 100;
+    }
+
+    .has-submenu > .submenu {
+        display: none;
+        position: relative;
+    }
+
+    .has-submenu:hover > .submenu {
+        display: block;
+    }
+}
+
+
+@media (min-width:1280px) {
+    .menu-item:hover > .submenu {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: all;
+    }
 }

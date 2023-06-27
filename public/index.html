@@ -8,45 +8,47 @@
     <link href="styles/styles.css" rel="stylesheet">
 </head>
 <body class="text-white-main bg-black font-main">
-    <header class="hidden">
-        <div>
-            <div>
-                <h2>Black Cat Division</h2>
+    <header class="fixed bg-black w-full flex text-center">
+        <div class="relative p-4 flex items-center justify-center m-auto">
+            <div class="block xl:hidden">
+                <h2 class="uppercase">Black Cat Division</h2>
             </div>
         </div>
+        <div class="mobile-nav">
+            <a href="#" class="open-menu">MENU</a>
+        </div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-link" href="#home">HOME</a></li>
 
-        <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-
-                <li><a href="#">SZKOŁA</a>
-                    <ul>
-                        <li><a href="#school">O NAS</a></li>
-                        <li><a href="#kalandyk">GRACJAN</a></li>
-                        <li><a href="#majewski">DAWID</a></li>
-                        <li><a href="#references">OPINIE</a></li>
+                <li class="menu-item has-submenu"><a class="menu-link" href="#">SZKOŁA</a>
+                    <ul class="submenu">
+                        <li class="menu-item"><a class="menu-link" href="#school">O NAS</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#kalandyk">GRACJAN</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#majewski">DAWID</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#references">OPINIE</a></li>
                     </ul>
                 </li>
                 
-                <li><a href="#">WOKAL</a>
-                    <ul>
-                        <li><a href="#vocal">INFO</a></li>
-                        <li><a href="#show">SPRAWDŹ NAS</a></li>
+                <li class="menu-item has-submenu"><a class="menu-link" href="#">WOKAL</a>
+                    <ul class="submenu">
+                        <li class="menu-item"><a class="menu-link" href="#vocal">INFO</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#show">SPRAWDŹ NAS</a></li>
                     </ul>
                 </li>
 
-                <li><a href="#">INSTRUMENTY</a>
-                    <ul>
-                        <li><a href="#guitar">GITARA</a></li>
-                        <li><a href="#bass">BAS</a></li>
-                        <li><a href="#piano">PIANINO</a></li>
-                        <li><a href="#ukulele">UKULELE</a></li>
+                <li class="menu-item has-submenu"><a class="menu-link" href="#">INSTRUMENTY</a>
+                    <ul class="submenu">
+                        <li class="menu-item"><a class="menu-link" href="#guitar">GITARA</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#bass">BAS</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#piano">PIANINO</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#ukulele">UKULELE</a></li>
                     </ul>
 
-                <li><a href="#studio">STUDIO</a></li>
-                <li><a href="#publishing">WYDAWNICTWO</a></li>
-                <li><a href="gallery.html">GALERIA</a></li>
-                <li><a href="#footer">KONTAKT</a></li>
+                <li class="menu-item"><a class="menu-link" href="#studio">STUDIO</a></li>
+                <li class="menu-item"><a class="menu-link" href="#publishing">WYDAWNICTWO</a></li>
+                <li class="menu-item"><a class="menu-link" href="gallery.html">GALERIA</a></li>
+                <li class="menu-item"><a class="menu-link" href="#footer">KONTAKT</a></li>
             </ul>
         </nav>
     </header>
