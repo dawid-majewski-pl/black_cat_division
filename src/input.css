@@ -12,11 +12,11 @@
 }
 
 .panel {
-    @apply  pb-4 my-4 sm:pb-16 lg:pb-20 bg-cover;
+    @apply  pb-4 my-4 sm:pb-16 lg:pb-20 bg-cover md:min-h-[980px];
 }
 
 .panel-grid {
-    @apply m-auto sm:max-w-[70%] sm:text-lg;
+    @apply m-auto sm:max-w-[90%] md:max-w-[1280px] sm:text-lg;
 }
 
 .header {
@@ -24,15 +24,19 @@
 }
 
 .question-list {
-    @apply bg-black bg-opacity-75 m-2 p-6 text-red-main lg:text-2xl;
+    @apply bg-black bg-opacity-75 my-2 p-6 text-red-main lg:text-2xl;
 }
 
 .text-card {
-    @apply bg-black bg-opacity-75 mx-2 p-6 text-justify lg:text-2xl;
+    @apply bg-black bg-opacity-75 my-2 p-6 text-justify lg:text-2xl;
+}
+
+.gear-card {
+    @apply bg-black bg-opacity-75 p-4 max-w-md lg:max-w-lg text-justify;
 }
 
 .media-card {
-    @apply w-[240px] m-auto;
+    @apply w-[280px] lg:w-[240px] xl:w-[300px];
 }
 
 .mobile-nav {

@@ -7,8 +7,8 @@
     <meta name="description" content="Szkoła wokalu i gry na instrumentach. Zajęcia prowadzą Gracjan Kalandyk i Dawid Majewski - doświadczeni muzycy, którzy uwielbiają przekazywać wiedzę innym.">
     <link href="styles/styles.css" rel="stylesheet">
 </head>
-<body class="text-white-main bg-black font-main">
-    <header class="fixed bg-black bg-opacity-70 w-full flex text-center z-[1] py-3">
+<body class="text-white-main bg-black font-main max-w-[1920px] m-auto">
+    <header class="fixed bg-blue-500 bg-opacity-70 w-screen flex text-center z-[1] py-3">
         <div class="relative px-4 w-full flex items-center justify-left m-auto">
             <div class="block xl:hidden">
                 <h2 class="uppercase font-bold text-[14px]">Black Cat Division</h2>
@@ -326,31 +326,35 @@
                     <li class="py-1"><img class="inline w-4 mr-2" src="img/hand.webp" alt=""> Skontaktuj się z nami i zaplanuj swoją sesję!</li>
                 </ul>
                 <!-- Gear Sub-section -->
-                <div class="mt-16">
+                <div class="mt-16 grid justify-items-center gap-4 lg:grid-cols-2 xl:grid-cols-3 m-auto w-fit">
                     <!-- Make Cards - Article with headers -->
-                    <div class="text-card">
-                        <p><span class="text-red-main font-bold uppercase">Zen go – Antelope</span> - Sercem naszego studia jest interface Zen Go Synergy Core.
+                    <div class="gear-card">
+                        <h3 class="text-red-main font-bold uppercase text-center">Zen go – Antelope</h3>
+                        <p>Sercem naszego studia jest interface Zen Go Synergy Core.
                             Studyjna jakość brzmienia, w pełni rewolucyjna technologia modelowania Synergy Core, napędzana
                             nieobciążającym procesora silinikiem DSP. To platforma dla wszelkiej maści efektów modelującyh,
                             powstałych na bazie rzeczywistych i legendarnych urządzeń analogowych. Synergy Core to TOPowy
                             sprzęt dla profesjonalistów.</p>
                         <img src="img/zengo.webp" alt="Zen Go. Interfejs dźwiękowy.">
                     </div>
-                    <div class="text-card">
-                        <p><span class="text-red-main font-bold uppercase">Icon Qcon</span> - To tym ustawiamy poziomy! Qcon to jeden z najczulszych “fejderów” na rynku. Z nami
+                    <div class="gear-card">
+                        <h3 class="text-red-main font-bold uppercase text-center">Icon Qcon</h3>
+                        <p>To tym ustawiamy poziomy! Qcon to jeden z najczulszych “fejderów” na rynku. Z nami
                             wszystko będzie miało odpowiednią głośność.</p>
                         <img src="img/qcon.webp" alt="Zdjęcie Icon QCon Pro. Konsola sterująca.">
                     </div>
-                    <div class="text-card">
-                        <p><span class="text-red-main font-bold uppercase">Antelope Edge Solo</span> – Wysokiej jakości jednokapsułowy wielkomembranowy mikrofon firmy
+                    <div class="gear-card">
+                        <h3 class="text-red-main font-bold uppercase text-center">Antelope Edge Solo</h3>
+                        <p>Wysokiej jakości jednokapsułowy wielkomembranowy mikrofon firmy
                             Antelope Audio. W połączeniu z najnowocześniejszą technologią modelowania firmy Antelope,
                             pozwala on użytkownikom na emulację najbardziej kultowych na świecie mikrofonów vintage z
                             niesamowitą dokładnością. Dzięki temu urządzeniu mamy dostępnych aż 18 różnych legendarnych
                             mikrofonów.</p>
                         <img class="gear__pic" src="img/neumann.webp" alt="">
                     </div>
-                    <div class="text-card">
-                        <p><span class="text-red-main font-bold uppercase">Odsłuchy M-audio</span> - Nagrywając i miksując u nas ścieżki, ciesz
+                    <div class="gear-card">
+                        <h3 class="text-red-main font-bold uppercase text-center">Odsłuchy M-audio</h3>
+                        <p>Nagrywając i miksując u nas ścieżki, ciesz
                             się większą wiernością i obrazowaniem dźwięku oraz bardzo szerokim idealnym punktem
                             odsłuchowym trójdrożnych monitorów studyjnych, które jako jedyne mogą zapewnić tak precyzyjne
                             nagrywanie i miksowanie. Konstrukcja z dwoma głośnikami w jednej osi umożliwiła studyjnym
@@ -358,8 +362,9 @@
                             tych samych rozmiarów, co w przypadku monitorów dwudrożnych.</p>
                         <img src="img/maudio.webp" alt="">
                     </div>
-                    <div class="text-card">
-                        <p><span class="text-red-main font-bold uppercase">Instrumenty</span> - Nasi uczniowie mają do dyspozycji instrumenty z najwyższej półki. Wzmacniacze firmy Marshall oraz
+                    <div class="gear-card">
+                        <h3 class="text-red-main font-bold uppercase text-center">Instrumenty</h3>
+                        <p>Nasi uczniowie mają do dyspozycji instrumenty z najwyższej półki. Wzmacniacze firmy Marshall oraz
                             Kustom. Do dyspozycji jest u nas również gitara elektryczna Cort CR300 czy pianino - Yamaha
                             Clavinova CLP220.</p>
                         <img src="" alt="">
@@ -368,7 +373,7 @@
             </div>
         </section>
         <!-- Publishing Section -->
-        <section id="publishing" class="bg-[url('../img/publishing.webp')] panel">
+        <section id="publishing" class="bg-[url('../img/publishing.webp')] grid">
             <div class="panel-grid">
                 <header>
                     <h2 class="header">Wydawnictwo</h2>
@@ -385,7 +390,12 @@
                         Poniżej znajdują się linki do naszych produkcji.
                     </p>
                 </div>
-                <div class="bg-black bg-opacity-70 py-12 grid gap-2 mt-16">
+            </div>
+            <article class="bg-black bg-opacity-70 mt-16 pb-8 lg:mt-40">
+                <header class="text-center uppercase p-4">
+                    <h3>Produkcje</h3>
+                </header>
+                <div class="m-auto pb-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 w-fit">
                     <!-- Make Cards - Articles with headers -->
                     <div class="media-card">
                         <a href="http://www.soundline.biz/NowakowskyNoWez/" target="blank"><img src="img/nowakowsky.webp" alt="Okładka singla Novakowsky - No weź."></a>
@@ -400,7 +410,7 @@
                         <a href="https://www.youtube.com/watch?v=rXm3zXHQ4yQ&ab_channel=GracjanKalandykVEVO" target="blank"><img src="img/kalandykvevo.webp" alt="Okładka singla Gracjana Kalandyka - Zostań tu."></a>
                     </div>
                 </div>
-            </div>
+                </article>
         </section>
     </main>
     <!-- Footer Section -->
