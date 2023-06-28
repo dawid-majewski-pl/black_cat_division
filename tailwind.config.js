@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'up-fhd': '2000px',
+      },
       colors: {
         'white-main': '#fefffe',
         'red-main': '#ff2323',
