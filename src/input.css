@@ -44,7 +44,7 @@
 }
 
 .navbar {
-    @apply hidden /*block*/ absolute top-0 duration-500 left-0 z-[999] w-screen min-h-screen bg-black text-sm xl:flex xl:justify-end xl:min-h-min;
+    @apply hidden /*block*/ absolute top-0 duration-500 left-0 z-[999] w-full max-w-[1920px] min-h-screen bg-black text-sm xl:flex xl:justify-end xl:min-h-min;
 }
 
 .menu {
