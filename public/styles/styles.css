@@ -618,6 +618,10 @@ video {
   width: 100vw;
 }
 
+.w-\[192px\]{
+  width: 192px;
+}
+
 .max-w-\[1800px\]{
   max-width: 1800px;
 }
@@ -676,6 +680,81 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gray-950{
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
+}
+
+.bg-gray-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.bg-slate-900{
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#4d4535\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(77 69 53 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#25221a\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 34 26 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1b1810\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(27 24 16 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#242015\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 32 21 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#252217\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(37 34 23 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#201e14\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(32 30 20 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1d1b12\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 27 18 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#131109\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 17 9 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1d1c16\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 28 22 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#1d1b15\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 27 21 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#181612\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 22 18 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-70{
   --tw-bg-opacity: 0.7;
 }
@@ -690,6 +769,10 @@ video {
 
 .bg-\[url\(\'\.\.\/img\/kalandyk\.webp\'\)\]{
   background-image: url('../img/kalandyk.webp');
+}
+
+.bg-\[url\(\'\.\.\/img\/majewski\.webp\'\)\]{
+  background-image: url('../img/majewski.webp');
 }
 
 .bg-\[url\(\'\.\.\/img\/piano\.webp\'\)\]{
@@ -938,6 +1021,10 @@ video {
   }
 }
 
+.character {
+  background-position-x: center;
+}
+
 .question-list{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -1127,6 +1214,10 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:w-\[256px\]{
+    width: 256px;
+  }
+
   .sm\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1168,16 +1259,8 @@ video {
     margin-left: 4rem;
   }
 
-  .lg\:ml-\[50\%\]{
-    margin-left: 50%;
-  }
-
-  .lg\:mr-16{
-    margin-right: 4rem;
-  }
-
-  .lg\:mr-\[50\%\]{
-    margin-right: 50%;
+  .lg\:mr-\[40\%\]{
+    margin-right: 40%;
   }
 
   .lg\:mt-40{
@@ -1194,6 +1277,18 @@ video {
 
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/img\/kalandyk\.webp\'\)\]{
+    background-image: url('../img/kalandyk.webp');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/img\/school\.webp\'\)\]{
+    background-image: url('../img/school.webp');
+  }
+
+  .lg\:bg-\[url\(\'\.\.\/img\/majewski\.webp\'\)\]{
+    background-image: url('../img/majewski.webp');
   }
 }
 
