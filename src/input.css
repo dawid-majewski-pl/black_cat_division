@@ -43,6 +43,10 @@
     @apply w-[280px] lg:w-[240px] xl:w-[300px];
 }
 
+.youtube {
+    @apply w-[240px] h-[135px];
+}
+
 .mobile-nav {
     @apply block xl:hidden;
 }
