@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .card {
-    @apply w-[50%] relative font-bold z-0;
+    @apply w-[200px] lg:w-[300px] relative font-bold z-0;
 }
 
 .badge {
