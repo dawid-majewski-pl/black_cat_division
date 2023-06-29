@@ -15,7 +15,7 @@
     @apply pb-4 my-4 sm:pb-16 lg:pb-20 bg-cover md:min-h-[980px] sm:px-8 md:px-16;
 }
 
-.panel-publishing {
+.panel-mod {
     @apply pb-4 my-4 sm:pb-16 lg:pb-20 bg-cover sm:px-8 md:px-16 md:min-h-fit;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .header {
-    @apply text-3xl uppercase font-bold py-12 m-auto text-center sm:py-16 md:text-4xl lg:text-5xl lg:py-20;
+    @apply text-3xl uppercase font-bold py-12 m-auto text-center sm:py-16 md:text-4xl lg:text-5xl xl:text-7xl lg:py-20;
 }
 
 .character {
@@ -73,6 +73,10 @@
 
 .menu-link {
     @apply block text-white-main no-underline py-3 duration-500 hover:text-red-main hover:bg-gray-950;
+}
+
+.footer-link {
+    @apply py-1 duration-500 hover:text-red-main;
 }
 
 @media (max-width:1280px) {

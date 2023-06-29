@@ -560,10 +560,6 @@ video {
   margin-top: 2rem;
 }
 
-.mb-8{
-  margin-bottom: 2rem;
-}
-
 .block{
   display: block;
 }
@@ -583,22 +579,6 @@ video {
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
-}
-
-.h-full{
-  height: 100%;
-}
-
-.h-\[100\%\]{
-  height: 100%;
-}
-
-.h-\[1920px\]{
-  height: 1920px;
-}
-
-.h-\[720px\]{
-  height: 720px;
 }
 
 .min-h-screen{
@@ -912,7 +892,7 @@ video {
   }
 }
 
-.panel-publishing{
+.panel-mod{
   margin-top: 1rem;
   margin-bottom: 1rem;
   background-size: cover;
@@ -920,7 +900,7 @@ video {
 }
 
 @media (min-width: 640px){
-  .panel-publishing{
+  .panel-mod{
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 4rem;
@@ -928,7 +908,7 @@ video {
 }
 
 @media (min-width: 768px){
-  .panel-publishing{
+  .panel-mod{
     min-height: -moz-fit-content;
     min-height: fit-content;
     padding-left: 4rem;
@@ -937,7 +917,7 @@ video {
 }
 
 @media (min-width: 1024px){
-  .panel-publishing{
+  .panel-mod{
     padding-bottom: 5rem;
   }
 }
@@ -990,6 +970,13 @@ video {
     padding-top: 5rem;
     padding-bottom: 5rem;
     font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1280px){
+  .header{
+    font-size: 4.5rem;
     line-height: 1;
   }
 }
@@ -1178,6 +1165,17 @@ video {
   color: rgb(255 35 35 / var(--tw-text-opacity));
 }
 
+.footer-link{
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  transition-duration: 500ms;
+}
+
+.footer-link:hover{
+  --tw-text-opacity: 1;
+  color: rgb(255 35 35 / var(--tw-text-opacity));
+}
+
 @media (max-width:1280px) {
   .menu-item:hover > .submenu {
     opacity: 1;
@@ -1244,6 +1242,11 @@ video {
   .md\:p-0{
     padding: 0px;
   }
+
+  .md\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 1024px){
@@ -1259,10 +1262,6 @@ video {
     margin-top: 10rem;
   }
 
-  .lg\:mb-16{
-    margin-bottom: 4rem;
-  }
-
   .lg\:hidden{
     display: none;
   }
@@ -1275,14 +1274,6 @@ video {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .lg\:gap-16{
-    gap: 4rem;
-  }
-
-  .lg\:gap-20{
-    gap: 5rem;
-  }
-
   .lg\:bg-\[url\(\'\.\.\/img\/kalandyk\.webp\'\)\]{
     background-image: url('../img/kalandyk.webp');
   }
@@ -1293,6 +1284,10 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:mb-12{
+    margin-bottom: 3rem;
+  }
+
   .xl\:ml-16{
     margin-left: 4rem;
   }
@@ -1307,14 +1302,6 @@ video {
 
   .xl\:mr-\[50\%\]{
     margin-right: 50%;
-  }
-
-  .xl\:mb-16{
-    margin-bottom: 4rem;
-  }
-
-  .xl\:mb-12{
-    margin-bottom: 3rem;
   }
 
   .xl\:hidden{
