@@ -94,9 +94,8 @@
             rounded
             absolute
             top-6
-            duration-500
+            duration-300
             -translate-y-3
-
 
             before:content-['']
             before:bg-white
@@ -106,7 +105,7 @@
             before:absolute
             before:-top-2
             before:-translate-x-3
-            before:duration-500
+            before:duration-300
 
             after:content-['']
             after:bg-white
@@ -117,11 +116,15 @@
             after:top-0
             after:-translate-x-3
             after:translate-y-2
-            after:duration-500
+            after:duration-300
+}
+
+.open-menu:hover > .hamburger {
+    @apply bg-red-main before:bg-red-main after:bg-red-main;
 }
 
 .toggle {
-    @apply before:translate-y-2 before:rotate-45 after:translate-y-0 after:-rotate-45 bg-transparent
+    @apply before:translate-y-2 before:rotate-45 after:translate-y-0 after:-rotate-45 h-0;
 }
 
 .hand {

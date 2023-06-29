@@ -1253,7 +1253,7 @@ video {
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  transition-duration: 500ms;
+  transition-duration: 300ms;
 }
 
 .hamburger::before{
@@ -1266,7 +1266,7 @@ video {
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  transition-duration: 500ms;
+  transition-duration: 300ms;
   --tw-content: '';
   content: var(--tw-content);
 }
@@ -1282,13 +1282,30 @@ video {
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  transition-duration: 500ms;
+  transition-duration: 300ms;
   --tw-content: '';
   content: var(--tw-content);
 }
 
+.open-menu:hover > .hamburger{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
+}
+
+.open-menu:hover > .hamburger::before{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
+}
+
+.open-menu:hover > .hamburger::after{
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
+}
+
 .toggle{
-  background-color: transparent;
+  height: 0px;
 }
 
 .toggle::before{
