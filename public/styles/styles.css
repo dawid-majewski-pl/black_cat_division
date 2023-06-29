@@ -1232,6 +1232,15 @@ video {
   }
 }
 
+@media (orientation: landscape) and (max-width: 1280px) {
+  .menu {
+    display: grid;
+    align-items: start;
+    align-content: top;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
 .footer-link{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;

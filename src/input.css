@@ -83,6 +83,14 @@
     @apply flex justify-center items-center gap-2 text-white-main no-underline py-3 duration-500 hover:text-red-main hover:bg-gray-700 xl:hover:bg-gray-950 cursor-pointer;
 }
 
+@media (orientation: landscape) and (max-width: 1280px) {
+    .menu {
+        display: grid;
+        align-items: start;
+        align-content: top;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
 .footer-link {
     @apply py-1 duration-500 hover:text-red-main;
 }
