@@ -12,7 +12,11 @@
 }
 
 .panel {
-    @apply  pb-4 my-4 sm:pb-16 lg:pb-20 bg-cover md:min-h-[980px];
+    @apply pb-4 my-4 sm:pb-16 lg:pb-20 bg-cover md:min-h-[980px] sm:px-8 md:px-16;
+}
+
+.panel-publishing {
+    @apply pb-4 my-4 sm:pb-16 lg:pb-20 bg-cover sm:px-8 md:px-16 md:min-h-fit;
 }
 
 .panel-grid {

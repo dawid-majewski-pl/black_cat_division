@@ -560,6 +560,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -579,6 +583,22 @@ video {
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-\[100\%\]{
+  height: 100%;
+}
+
+.h-\[1920px\]{
+  height: 1920px;
+}
+
+.h-\[720px\]{
+  height: 720px;
 }
 
 .min-h-screen{
@@ -872,6 +892,8 @@ video {
 
 @media (min-width: 640px){
   .panel{
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-bottom: 4rem;
   }
 }
@@ -879,11 +901,43 @@ video {
 @media (min-width: 768px){
   .panel{
     min-height: 980px;
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 
 @media (min-width: 1024px){
   .panel{
+    padding-bottom: 5rem;
+  }
+}
+
+.panel-publishing{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-size: cover;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 640px){
+  .panel-publishing{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media (min-width: 768px){
+  .panel-publishing{
+    min-height: -moz-fit-content;
+    min-height: fit-content;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1024px){
+  .panel-publishing{
     padding-bottom: 5rem;
   }
 }
@@ -1205,6 +1259,10 @@ video {
     margin-top: 10rem;
   }
 
+  .lg\:mb-16{
+    margin-bottom: 4rem;
+  }
+
   .lg\:hidden{
     display: none;
   }
@@ -1215,6 +1273,14 @@ video {
 
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:gap-16{
+    gap: 4rem;
+  }
+
+  .lg\:gap-20{
+    gap: 5rem;
   }
 
   .lg\:bg-\[url\(\'\.\.\/img\/kalandyk\.webp\'\)\]{
@@ -1243,11 +1309,23 @@ video {
     margin-right: 50%;
   }
 
+  .xl\:mb-16{
+    margin-bottom: 4rem;
+  }
+
+  .xl\:mb-12{
+    margin-bottom: 3rem;
+  }
+
   .xl\:hidden{
     display: none;
   }
 
   .xl\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .xl\:gap-20{
+    gap: 5rem;
   }
 }
