@@ -52,11 +52,15 @@
 }
 
 .mobile-nav {
-    @apply block xl:hidden;
+    @apply block relative z-[200] xl:hidden;
 }
 
 .navbar {
-    @apply hidden /*block*/ absolute top-0 duration-500 left-0 z-[999] w-full max-w-[1920px] min-h-screen bg-black text-sm xl:flex xl:justify-end xl:min-h-min;
+    @apply hidden absolute top-0 duration-500 left-0 z-[100] w-full max-w-[1920px] min-h-screen bg-black text-sm xl:flex xl:justify-end xl:min-h-min;
+}
+
+.is-active {
+    @apply block xl:flex pointer-events-auto bg-opacity-90;
 }
 
 .menu {
@@ -67,12 +71,16 @@
     @apply relative xl:w-[140px] xl:z-30;
 }
 
+.menu-subitem {
+    @apply bg-gray-800 xl:bg-gray-950;
+}
+
 .submenu {
     @apply relative w-max list-none min-w-full opacity-0 z-[-10] duration-500 translate-y-[-200px] pointer-events-none xl:bg-gray-950;
 }
 
 .menu-link {
-    @apply block text-white-main no-underline py-3 duration-500 hover:text-red-main hover:bg-gray-950;
+    @apply block text-white-main no-underline py-3 duration-500 hover:text-red-main hover:bg-gray-700 xl:hover:bg-gray-950;
 }
 
 .footer-link {
