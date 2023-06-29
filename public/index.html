@@ -9,17 +9,19 @@
 </head>
 <body class="text-white-main bg-black font-main max-w-[1920px] m-auto">
     <header class="fixed bg-black bg-opacity-70 w-screen flex text-center z-[1] py-3">
-        <div class="relative px-4 w-full flex items-center justify-left m-auto">
+        <div class="relative px-4 w-full flex items-center justify-left m-auto my-0">
             <div class="block xl:hidden">
                 <h2 class="uppercase font-bold text-[14px]">Black Cat Division</h2>
             </div>
         </div>
         <div class="mobile-nav">
-            <a href="#" class="open-menu px-8 text-[14px] duration-500 hover:text-red-main">=</a>
+            <button class="open-menu mx-8 duration-500 relative w-6 h-6">
+                <div class="hamburger"></div>
+            </button>
         </div>
         <nav class="navbar">
-            <ul class="menu">
-                <li class="menu-item"><a class="menu-link" href="#home">HOME</a></li>
+            <ul class="menu pt-12 xl:pt-0">
+                <li class="menu-item hide-nav-js"><a class="menu-link" href="#home">HOME</a></li>
 
                 <li class="menu-item has-submenu"><a class="menu-link" href="#">SZKOŁA</a>
                     <ul class="submenu">
@@ -31,24 +33,24 @@
                 </li>
                 
                 <li class="menu-item has-submenu"><a class="menu-link" href="#">WOKAL</a>
-                    <ul class="submenu">
+                    <ul class="submenu hide-nav-js">
                         <li class="menu-item menu-subitem"><a class="menu-link" href="#vocal">INFO</a></li>
                         <li class="menu-item menu-subitem"><a class="menu-link" href="#show">SPRAWDŹ NAS</a></li>
                     </ul>
                 </li>
 
                 <li class="menu-item has-submenu"><a class="menu-link" href="#">INSTRUMENTY</a>
-                    <ul class="submenu">
+                    <ul class="submenu hide-nav-js">
                         <li class="menu-item menu-subitem"><a class="menu-link" href="#guitar">GITARA</a></li>
                         <li class="menu-item menu-subitem"><a class="menu-link" href="#bass">BAS</a></li>
                         <li class="menu-item menu-subitem"><a class="menu-link" href="#piano">PIANINO</a></li>
                         <li class="menu-item menu-subitem"><a class="menu-link" href="#ukulele">UKULELE</a></li>
                     </ul>
 
-                <li class="menu-item"><a class="menu-link" href="#studio">STUDIO</a></li>
-                <li class="menu-item"><a class="menu-link" href="#publishing">WYDAWNICTWO</a></li>
-                <li class="menu-item"><a class="menu-link" href="gallery.html">GALERIA</a></li>
-                <li class="menu-item"><a class="menu-link" href="#footer">KONTAKT</a></li>
+                <li class="menu-item hide-nav-js"><a class="menu-link" href="#studio">STUDIO</a></li>
+                <li class="menu-item hide-nav-js"><a class="menu-link" href="#publishing">WYDAWNICTWO</a></li>
+                <li class="menu-item hide-nav-js"><a class="menu-link" href="gallery.html">GALERIA</a></li>
+                <li class="menu-item hide-nav-js"><a class="menu-link" href="#footer">KONTAKT</a></li>
             </ul>
         </nav>
     </header>
