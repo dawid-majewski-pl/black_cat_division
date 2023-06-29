@@ -60,7 +60,7 @@
 }
 
 .is-active {
-    @apply right-0 xl:flex pointer-events-auto bg-opacity-90;
+    @apply right-0 xl:flex pointer-events-auto bg-opacity-70;
 }
 
 .menu {
@@ -80,7 +80,7 @@
 }
 
 .menu-link {
-    @apply block text-white-main no-underline py-3 duration-500 hover:text-red-main hover:bg-gray-700 xl:hover:bg-gray-950;
+    @apply flex justify-center items-center gap-2 text-white-main no-underline py-3 duration-500 hover:text-red-main hover:bg-gray-700 xl:hover:bg-gray-950 cursor-pointer;
 }
 
 .footer-link {
@@ -124,6 +124,10 @@
     @apply before:translate-y-2 before:rotate-45 after:translate-y-0 after:-rotate-45 bg-transparent
 }
 
+.hand {
+    @apply duration-300;
+}
+
 @media (max-width:1280px) {
     .menu-item:hover > .submenu {
         opacity: 1;
@@ -150,4 +154,8 @@
         transform: translateY(0);
         pointer-events: all;
     }
+}
+
+.menu-item:hover > .menu-link > .hand {
+    transform: rotate(45deg);
 }

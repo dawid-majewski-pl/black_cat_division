@@ -590,6 +590,10 @@ video {
   height: 1.5rem;
 }
 
+.h-\[12px\]{
+  height: 12px;
+}
+
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
@@ -1133,7 +1137,7 @@ video {
 .is-active{
   pointer-events: auto;
   right: 0px;
-  --tw-bg-opacity: 0.9;
+  --tw-bg-opacity: 0.7;
 }
 
 @media (min-width: 1280px){
@@ -1201,7 +1205,11 @@ video {
 }
 
 .menu-link{
-  display: block;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   --tw-text-opacity: 1;
@@ -1297,6 +1305,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hand{
+  transition-duration: 300ms;
+}
+
 @media (max-width:1280px) {
   .menu-item:hover > .submenu {
     opacity: 1;
@@ -1322,6 +1334,10 @@ video {
     transform: translateY(0);
     pointer-events: all;
   }
+}
+
+.menu-item:hover > .menu-link > .hand {
+  transform: rotate(45deg);
 }
 
 @media (min-width: 640px){
@@ -1427,10 +1443,6 @@ video {
 
   .xl\:hidden{
     display: none;
-  }
-
-  .xl\:max-w-\[1920px\]{
-    max-width: 1920px;
   }
 
   .xl\:grid-cols-3{
