@@ -1008,8 +1008,22 @@ video {
 }
 
 .youtube{
-  height: 135px;
-  width: 240px;
+  height: 144px;
+  width: 256px;
+}
+
+@media (min-width: 640px){
+  .youtube{
+    height: 207px;
+    width: 368px;
+  }
+}
+
+@media (min-width: 768px){
+  .youtube{
+    height: 288px;
+    width: 512px;
+  }
 }
 
 .mobile-nav{

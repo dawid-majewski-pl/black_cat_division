@@ -44,7 +44,7 @@
 }
 
 .youtube {
-    @apply w-[240px] h-[135px];
+    @apply w-[256px] h-[144px] sm:w-[368px] sm:h-[207px] md:w-[512px] md:h-[288px];
 }
 
 .mobile-nav {
