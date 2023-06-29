@@ -1287,39 +1287,28 @@ video {
   content: var(--tw-content);
 }
 
-.open-menu:hover > .hamburger{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
-}
-
-.open-menu:hover > .hamburger::before{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
-}
-
-.open-menu:hover > .hamburger::after{
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
-}
-
 .toggle{
   height: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
 }
 
 .toggle::before{
   --tw-translate-y: 0.5rem;
-  content: var(--tw-content);
   --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
 }
 
 .toggle::after{
   --tw-translate-y: 0px;
-  content: var(--tw-content);
   --tw-rotate: -45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 35 35 / var(--tw-bg-opacity));
 }
 
 .hand{
