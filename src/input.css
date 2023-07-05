@@ -60,7 +60,7 @@
 }
 
 .is-active {
-    @apply right-0 xl:flex pointer-events-auto bg-opacity-70;
+    @apply right-0 xl:flex pointer-events-auto bg-opacity-70 lg:opacity-100;
 }
 
 .menu {

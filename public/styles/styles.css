@@ -1140,6 +1140,12 @@ video {
   --tw-bg-opacity: 0.7;
 }
 
+@media (min-width: 1024px){
+  .is-active{
+    opacity: 1;
+  }
+}
+
 @media (min-width: 1280px){
   .is-active{
     display: flex;
