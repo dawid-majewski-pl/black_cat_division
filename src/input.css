@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 .card {
-    @apply w-[200px] lg:w-[300px] relative font-bold z-0;
+    @apply w-[200px] lg:w-[300px] relative font-bold z-0 duration-300 hover:scale-110;
 }
 
 .badge {
@@ -44,7 +44,7 @@
 }
 
 .media-card {
-    @apply w-[280px] lg:w-[240px] xl:w-[300px];
+    @apply w-[280px] lg:w-[240px] xl:w-[300px] duration-300 hover:scale-105;
 }
 
 .youtube {

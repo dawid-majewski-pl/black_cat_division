@@ -871,6 +871,10 @@ video {
   text-align: center;
 }
 
+.text-justify{
+  text-align: justify;
+}
+
 .font-main{
   font-family: 'Lato', sans-serif;
 }
@@ -968,6 +972,13 @@ video {
   z-index: 0;
   width: 200px;
   font-weight: 700;
+  transition-duration: 300ms;
+}
+
+.card:hover{
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @media (min-width: 1024px){
@@ -1162,6 +1173,13 @@ video {
 
 .media-card{
   width: 280px;
+  transition-duration: 300ms;
+}
+
+.media-card:hover{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @media (min-width: 1024px){
